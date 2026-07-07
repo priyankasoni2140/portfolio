@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>My portfolio</title>
+<style>
+   body {
+    font-family:Arial;
+    margin:0px;
+  }
+   nav {
+    background:blue;
+    padding:20px;
+   }
+   nav a {  
+    color:white;
+    margin-right:20px;
+   }
+   .hero {
+    text-align:center;
+    padding:20px;
+    background:lightblue;
+   }
+   .container {
+    display:flex;
+    gap:20px;
+    padding:20px;
+   }
+   .card {
+    border:2px solid black;
+    padding:20px;
+    width:150px;
+    text-align:center;
+   }
+   footer{
+   background-color:black;
+   color:white;
+   text-align:center;
+   padding:20px;
+   }
+   button{
+    padding:10px;
+   }
+  </style>
+  </head>
+  <body>
+   <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Skills</a>
+    <a href="#">Contact</a>
+   </nav>
+   </section>
+    <section class="hero">
+
+    <h1 id="heading">Priyanka Soni</h1>
+</p>
+    <p>B.Tech 3rd Year Student</p>
+
+    <p>I am learning Web Development.</p>
+
+    <button onclick="changeText()">
+        Get Started
+    </button>
+
+</section>
+</section>
+   <section>
+    <h2>My skills</h2>
+
+    <div class="container">
+    <div class="card">
+     <h3>html</h3>
+     <p>structure of webpage</p>
+    </div>
+
+    <div class="card">
+     <h3>css</h3>
+     <p>styling og webpage</p>
+    </div>
+
+    <div class="card">
+     <h3>javascript</h3>
+     <p>interactivity</p>
+    </div>
+    </section>
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>Email: priyanka@example.com</p>
+
+    <a href="priyankasoni2140@gmail.com">
+        <button>Contact Me</button>
+    </a>
+
+</section>
+    <footer>
+   <p>© Priyanka Soni</p>
+    </footer>
+   <script>
+   function changeText() 
+    document.getElementById("heading").innerHTML =
+    "Welcome to My Portfolio!";
+</script>
+    </body>
+    </html> 
